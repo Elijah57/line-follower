@@ -52,7 +52,7 @@ void loop() {
 LS = digitalRead(LeftIR); //Read left sensor
 RS = digitalRead(RightIR); //Read right sensor
 
- if(RS == 0 && LS == 0){ // move forward if both sensors are on white surface
+ if(RS == 0 && LS == 0){ // move forward if both sensors are on white/ reflective surface
   forward();
  }
  if (RS == 1 && LS == 0){ //turn right, if right sensor is on the line
