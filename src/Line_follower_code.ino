@@ -52,6 +52,11 @@ void loop() {
 LS = digitalRead(LeftIR); //Read left sensor
 RS = digitalRead(RightIR); //Read right sensor
 
+/*
+ * The sensor output is HIGH (1), if it detects no reflection 
+ * LOW (0), if it detects reflection of the light.
+ */
+ 
  if(RS == 0 && LS == 0){ // move forward if both sensors are on white/ reflective surface
   forward();
  }
