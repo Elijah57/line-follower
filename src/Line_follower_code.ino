@@ -41,6 +41,8 @@ pinMode(IN_3 , OUTPUT);
 pinMode(IN_4 , OUTPUT);
 pinMode(ENa , OUTPUT);
 pinMode(ENb , OUTPUT);
+ 
+// declare sensor pins as input
 pinMode(LeftIR , INPUT );
 pinMode(RightIR , INPUT);
 }
