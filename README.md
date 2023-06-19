@@ -1,7 +1,7 @@
 # line-follower
 Source code for Line follower Robot using Arduino Uno
 # Equipments: 
-*  Arduino Uno
+ *             Arduino Uno
  *             L298N Motor Driver
  *             Infrared Obstacle avoidance Sensor (2)
  *             4WD Robot car
